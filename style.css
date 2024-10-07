@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background: #c1f739;
+    padding: 1rem;
+    border: 5px solid green;
+    border-radius: 22px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    .input-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: .5rem 0;
+        label {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        input {
+            padding: 1rem;
+            font-size: 2rem;
+            border: 3px solid green;
+            border-radius: 16px;
+        }
+        button {
+            background: #415fe8;
+            color: #fff;
+            border: 3px solid #021a89;
+            padding: .5rem 1rem;
+            border-radius: 15px;
+            margin: 0 auto;
+            margin-top: 1rem;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+    .error, .not_save {
+        background: #bf9393;
+        padding: 1rem;
+        border-radius: 12px;
+        border: 5px solid red;
+        color: #9b2d2d;
+        margin: 1rem;
+    }
+    .success {
+        background: #b3cfa7;
+        padding: 1rem;
+        border: 5px solid green;
+        border-radius: 12px;
+        color: green;
+        margin: 1;
+    }
+}
